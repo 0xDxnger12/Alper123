@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="300px" height="200px">
+        <thead>
+            <tr>
+                <br><th colspan="2">Başvuru Formu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="ad">Ad:</label></td>
+                <td><input type="text" name="ad" id="ad"></td>
+            </tr>
+            <tr>
+                <td><label for="soyad">Soyad:</label></td>
+                <td><input type="text" name="soyad" id="soyad"></td>
+            </tr>
+            <tr>
+                <td><label for="cinsiyet">Cinsiyet:</label></td>
+                <td>
+                    <input type="radio" name="cinsiyet" id="cinsiyet">Kadın<br>
+                    <input type="radio" name="cinsiyet" id="cinsiyet">Erkek
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ilgi">İlgi Alanları:</label></td>
+                <td>
+                    <input type="checkbox" name="ilgi" id="ilgi">Spor<br>
+                    <input type="checkbox" name="ilgi" id="ilgi">Oyun<br>
+                    <input type="checkbox" name="ilgi" id="ilgi">Ders<br>
+                    <input type="checkbox" name="ilgi" id="ilgi">Para<br>
+                    <input type="checkbox" name="ilgi" id="ilgi">İş<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="adres">Adres:</label></td>
+                <td><textarea name="adres" id="adres" cols="100" rows="5" placeholder="Adresi Giriniz"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="sehir">Şehir:</label>
+                    <select name="sehir" id="sehir">
+                        <option value="istanbul">İstanbul</option>
+                        <option value="van">van</option>
+                        <option value="ankara">ankara</option>
+                        <option value="izmir">izmir</option>
+                        <option value="edirne">edirne</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name="buton" id="buton">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
