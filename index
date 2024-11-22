@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="ust">
+    <table border="1">
+        <tbody>
+        <tr>
+                <td><form name="giris" action="gonder.html" method="get" target="_blank">
+                <br>Kullanıcı Adı:</br><input type="text" id="kullanici" name="kullanici" placeholder="Kullanıcı Adı Giriniz">
+                <br>Ad:</br><input type="text" name="ad" id="ad" placeholder="Ad Giriniz">
+                <br>Soyad:</br><input type="text" name="soyad" id="soyad" placeholder="Soyad Giriniz"></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet:<br><br>
+                <input type="radio" id="cinsiyet" name="cinsiyet" title="Erkek">Erkek<br>
+                <input type="radio" id="cinsiyet" name="cinsiyet" title="Kadın">Kadın<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Eğitim Durumunuz:<br>
+                <br><input type="radio" id="egitim" name="egitim" title="Öğrenci">Öğrenci
+                <br><input type="radio" id="egitim" name="egitim" title="İlkokul">İlkokul
+                <br><input type="radio" id="egitim" name="egitim" title="Ortaokul">Ortaokul
+                <br><input type="radio" id="egitim" name="egitim" title="Lise">Lise
+                <br><input type="radio" id="egitim" name="egitim" title="ön lisans">Ön lisans
+                <br><input type="radio" id="egitim" name="egitim" title="Lisans">Lisans
+                <br><input type="radio" id="egitim" name="egitim" title="Yüksek Lisans">Yüksek Lisans
+            </td>
+        </tr>
+        <tr>
+            <td>Bildiğiniz Diller:<br>
+                <br><input type="checkbox" id="dil" name="dil" title="Türkçe">Türkçe
+                <br><input type="checkbox" id="dil" name="dil" title="İngilizce">İngilizce
+                <br><input type="checkbox" id="dil" name="dil" title="Fransızca">Fransızca
+                <br><input type="checkbox" id="dil" name="dil" title="Rusça">Rusça
+                <br><input type="checkbox" id="dil" name="dil" title="Japonca">Japonca
+                <br><input type="checkbox" id="dil" name="dil" title="Almanca">Almanca
+                <br><input type="checkbox" id="dil" name="dil" title="Portekizce">Portekizce</pre>
+                <pre><input type="submit" value="Başvuruyu Gönder" title="Başvuru Gönder"><input type="reset" value="Hepsini Temizle" title="Hepsini Temizle"><br>
+            </td>
+        </tr>
+        <tr>
+            <td><h2 title="Adres">Adres:</h2>
+                <textarea id="Adres" name="" rows="5" cols="75" title="Adresi Buraya Yazınız" placeholder="Adresi giriniz"></textarea>
+                <h3>Şehirler</h3>
+                    <select name="sehir" id="sehirler">
+                    <option value="istanbul" selected title="İstanbul">İstanbul</option>
+                    <option value="ankara" title="Ankaa">Ankara</option>
+                    <option value="izmir" title="İzmir">İzmir</option>
+                    <option value="tekirdag" title="Tekirdağ">Tekirdağ</option>
+                    <option value="van" title="Van">Van</option>
+                    <input type="submit" value="Adresi Gönder" title="Adresi Gönder">
+                    <input type="reset" value="Temizle" title="Temizle">
+                    </select>
+                </textarea>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <br>Meslek: <input type="text" id="meslek" name="meslek" placeholder="Meslek Giriniz">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Milli eğitim bakanlığına gitmek için resime tıklayınız</p><a href="iframe.html" target="_blank"><img src="resimler/Logo.png" alt="resim" title="Tıkla"></a><br>
+                <br>Mail Göndermek İçin resime tıklayınız<br><a href="mailto:posta@meb.gov.tr"><img src="resimler/Logo.png" alt="mailgönder" title="Tıkla"></a>
+            </td>
+        </tr>
+</tbody>
+</table>
+    <tfoot>Başa dönmek için <a href="#ust"> Tıklayınız </a></tfoot>
+</body>
+</html>
